@@ -17,9 +17,7 @@ Solution은 간단합니다.
 이 과정을 수식으로 표현하면 아래와 같습니다.
 
 $$
-\begin{equation}
 p_{\mathbf{x}}(\mathbf{x})=p_{\mathbf{y}}(\mathcal{G}(\mathbf{x}))\left|\frac{d \mathcal{G}(\mathbf{x})}{d \mathbf{x}}\right|=p_{\mathbf{y}}(\mathcal{G}(\mathbf{x}))\left|\nabla_{\mathbf{x}} \mathcal{G}(\mathbf{x})\right|
-\end{equation}
 $$
 
 이 과정은 해석적으로 한번에 계산을 해내기 보단, iterative하게 단계 별로 나눠 접근하는 방법이 보다 적합하다고 논문에서 주장합니다.
